@@ -19,6 +19,14 @@ public class Main {
         short ld= -159;
         short dd= 27897;
         byte kk = 67;
+System.out.println(f);
+        System.out.println(s);
+        System.out.println(q);
+        System.out.println(ht);
+        System.out.println(lk);
+        System.out.println(ld);
+        System.out.println(dd);
+        System.out.println(kk);
 
 //----------------------------------------------------------
 
@@ -77,13 +85,12 @@ System.out.println("     ");
 
         int banana=5*80;
         int milk = (200/100)*105;
-        int iсуСreame =2*100;
+        int creame =2*100;
         int aggs = 4*70;
-        int weight= banana+milk+iсуСreame+aggs;
+        int weight= banana+milk+creame+aggs;
              System.out.println("Общий вес в граммах "+weight);
              float kg =weight/1000F;
              System.out.println("Общий вес  килограммах "+kg);
-
         /*
         Правила соревнований обновились, и теперь нашему спортсмену нужно сбросить 7 кг,
         чтобы оставаться в своей весовой категории.
@@ -93,7 +100,6 @@ System.out.println("     ");
 будет терять каждый день по 250 грамм и сколько, если каждый день будет худеть на 500 грамм.
 Посчитайте, сколько может потребоваться дней в среlнем, чтобы добиться результата похудения.
          */
-
             int gramm=7*1000;
             int losing=  gramm/250;
             int losing500 = gramm/500;
@@ -132,9 +138,11 @@ double salaryMyears =(salaryM*12)-(Masha*12);
         double salaryKyears =(salaryK*12)-(Kristina*12);
 
         System.out.println("Маша теперь получает в месяц "+salaryM +" Годовой доход вырос на "+salaryMyears);
-        System.out.println("Денис теперь получает в месяц "+salaryD +" Годовой доход вырос на "+salaryDyears);
-        System.out.println("Кристина теперь получает в месяц "+salaryK +" Годовой доход вырос на "+salaryKyears);
 
+        System.out.println("Денис теперь получает в месяц "+salaryD +" Годовой доход вырос на "+salaryDyears);
+
+        System.out.println("Кристина теперь получает в месяц "+salaryK +" Годовой доход вырос на "+salaryKyears);
+        // последняя версия
 
 
 
