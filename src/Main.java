@@ -90,6 +90,9 @@ System.out.println("     ");
         int weight= banana+milk+creame+aggs;
              System.out.println("Общий вес в граммах "+weight);
              float kg =weight/1000F;
+
+
+
              System.out.println("Общий вес  килограммах "+kg);
         /*
         Правила соревнований обновились, и теперь нашему спортсмену нужно сбросить 7 кг,
